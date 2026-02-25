@@ -1,0 +1,25 @@
+# Input values
+revenue = float(input("Enter Apple’s total revenue for the year: "))
+expenses = float(input("Enter Apple’s total expenses for the year: "))
+
+# Calculate profit
+profit = revenue - expenses
+
+print("Apple's profit for the year is:", profit)
+cost_price = float(input("Enter takeover cost: "))
+sell_value = float(input("Enter sale value (or estimated value gained): "))
+
+profit = sell_value - cost_price
+
+print("Profit from the takeover is:", profit)
+
+
+
+last_year_profit = float(input("Enter profit from last year: "))
+this_year_profit = float(input("Enter profit from this year: "))
+
+growth = ((this_year_profit - last_year_profit) / last_year_profit) * 100
+
+print(f"Year-over-year profit growth: {growth:.2f}%")
+
+
